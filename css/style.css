@@ -34,6 +34,7 @@ body {
   border-radius: 0.5rem;
   overflow: hidden;
   max-width: 40rem;
+  margin: auto;
 }
 
 .price > * {
@@ -41,6 +42,10 @@ body {
 }
 
 @media only screen and (min-width: 62.5rem) {
+
+    body {
+        margin: 0 auto;
+    }
   .price {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
